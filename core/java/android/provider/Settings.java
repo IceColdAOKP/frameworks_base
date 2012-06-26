@@ -1900,6 +1900,14 @@ public final class Settings {
         public static final String NOTIFICATION_LIGHT_PULSE = "notification_light_pulse";
 
         /**
+         * Whether the button backlights should be turned on when a notification came in.
+         * The value is boolean (1 or 0).
+         * @hide
+         */
+         public static final String NOTIFICATION_USE_BUTTON_BACKLIGHT = "notification_use_button_backlight";
+
+
+        /**
          * Whether the battery LED should repeatedly flash when the battery is low
          * on charge. The value is boolean (1 or 0).
          * @hide
@@ -3052,6 +3060,12 @@ public final class Settings {
          * @hide
          */
         public static final String QUIET_HOURS_DIM = "quiet_hours_dim";
+
+        /**
+         * Whether disable Bln during quiet hours.
+         * @hide
+         */
+        public static final String QUIET_HOURS_BLN = "quiet_hours_bln";
 
         /**
          * Color to tint the nav bar glow
