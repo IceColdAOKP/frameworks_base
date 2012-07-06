@@ -1815,6 +1815,16 @@ public class PowerManagerService extends IPowerManager.Stub
             if (mProximitySensorActive) {
                 // don't turn on the screen when the proximity sensor lock is held
                 newState = (newState & ~SCREEN_BRIGHT);
+            } else {
+                // TODO add some resource checking here
+                if (true == true) // check for NEVER TURN BUTTONS BRIGHTNESS OFF resource
+            {
+                if ( (newState & SCREEN_ON_BIT) != 0 ) // if Screen is on ...
+            {
+                // never turn buttons light off even if delay reached in Timeout
+                newState |= BUTTON_BRIGHT_BIT;
+            }
+            }
             }
 
             if (batteryIsLow()) {
