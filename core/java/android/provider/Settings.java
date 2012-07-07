@@ -1874,6 +1874,13 @@ public final class Settings {
         public static final String TTY_MODE = "tty_mode";
 
         /**
+         * Whether noise suppression is enabled. The value is
+         * boolean (1 or 0).
+         * @hide
+         */
+        public static final String NOISE_SUPPRESSION = "noise_suppression";
+
+        /**
          * Whether the sounds effects (key clicks, lid open ...) are enabled. The value is
          * boolean (1 or 0).
          */
@@ -2122,6 +2129,7 @@ public final class Settings {
             CALL_AUTO_RETRY,
             HEARING_AID,
             TTY_MODE,
+            NOISE_SUPPRESSION,
             SOUND_EFFECTS_ENABLED,
             HAPTIC_FEEDBACK_ENABLED,
             POWER_SOUNDS_ENABLED,
@@ -2857,19 +2865,19 @@ public final class Settings {
          * 
          * @hide
          */
-		public static final String LOCKSCREEN_LAYOUT = "lockscreen_layout";
+         public static final String LOCKSCREEN_LAYOUT = "lockscreen_layout";
 		
-		/**        
+        /**        
          * 
          * @hide
          */
-		public static final String LOCKSCREEN_4TAB = "lockscreen_4tab";
+        public static final String LOCKSCREEN_4TAB = "lockscreen_4tab";
 
-		/**
-		 * whether to hide the navigation bar on the lockscreen
-		 *
-		 * @hide
-		 */
+       /**
+        * whether to hide the navigation bar on the lockscreen
+        *
+        * @hide
+        */
         public static final String LOCKSCREEN_HIDE_NAV = "lockscreen_hide_nav";
 
         /**
