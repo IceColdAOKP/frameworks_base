@@ -2627,7 +2627,7 @@ public class WifiStateMachine extends StateMachine {
                                 PendingIntent.FLAG_UPDATE_CURRENT);
 
                         mAlarmManager.set(AlarmManager.RTC_WAKEUP, System.currentTimeMillis()
-                                + mDriverStopDelayMs, mDriverStopIntent);
+                                + DELAYED_DRIVER_STOP_MS, mDriverStopIntent);
                     }
                     break;
                 case CMD_START_DRIVER:
