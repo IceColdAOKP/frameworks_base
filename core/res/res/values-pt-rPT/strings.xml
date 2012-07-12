@@ -1158,8 +1158,8 @@
     <string name="checkbox_not_checked" msgid="5174639551134444056">"desmarcado"</string>
     <string name="radiobutton_selected" msgid="8603599808486581511">"selecionado"</string>
     <string name="radiobutton_not_selected" msgid="2908760184307722393">"não selecionado"</string>
-    <string name="switch_on" msgid="551417728476977311">"LIG"</string>
-    <string name="switch_off" msgid="7249798614327155088">"DESL"</string>
+    <string name="switch_on" msgid="551417728476977311">"on"</string>
+    <string name="switch_off" msgid="7249798614327155088">"off"</string>
     <string name="togglebutton_pressed" msgid="4180411746647422233">"premido"</string>
     <string name="togglebutton_not_pressed" msgid="4495147725636134425">"não premido"</string>
     <string name="keyboardview_keycode_alt" msgid="4856868820040051939">"Alt"</string>
